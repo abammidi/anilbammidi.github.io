@@ -1,30 +1,409 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anil Bammidi | Portfolio</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Anil Bammidi</h1>
-    <h2>Data Engineer and Data Science Professional</h2>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>			
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
 
-    <p>
-        Welcome to my portfolio. I have experience working with Azure,
-        Databricks, PySpark, Scala, SQL, and data engineering technologies.
-    </p>
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Anil Kumar Bammidi</h1>
+            <h2>Data Science Portfolio</h2>
+        </div>
+        <!-- End #lead-content -->
 
-    <h2>Projects</h2>
+        <div id="lead-overlay"></div>
 
-    <h3>Kia and Hyundai Theft Data Analysis</h3>
-    <p>
-        An analysis of vehicle theft trends using data cleaning,
-        visualization, and exploratory data analysis.
-    </p>
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+		
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
 
-    <h2>Contact</h2>
-    <p>
-        <a href="https://github.com/anilbammidi">GitHub</a>
-    </p>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+IT professional with over 16 years in retail and financial services.Extensive expertise in Big Data, Cloud Engineering and software development with experience of robust programming experience and a strong focus on distributed computing and cloud architecture.Skilled in leading large-scale application development, data mapping, reporting, business requirements gathering, and software quality assurance testing. Proficient in analyzing system requirements and use cases through collaboration with clients, stakeholders, and technical teams across onshore and offshore locations.
+Specialized expertise in the Hadoop ecosystem, with a proven track record of developing and optimizing large-scale data processing jobs using Apache Spark, Apache Hive, Talend, and Azure Databricks.               </p>
+				</div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/abammidi" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/anilbammidi/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>				
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/netflix.jpg" style="width: 100%; max-width: 300px; height: auto;" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Netflix Popularity - Exploratory Data Analysis </h3>
+                        <p>
+                            This project is an in-depth exploration data analysis on gain in Netflix popularity over the period of time from 2008 to 2018 Covid.This analysis unfold various factors results in Netflix popularity across audience from the globe.
+                        </p>
+                        <a href="https://github.com/abammidi/Datascience_projects/tree/main/EDA%20-%20Netflix%20popularity">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/MS2.jpg" style="width: 100%; max-width: 300px; height: auto;"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Hybrid Music Recommendation System</h3>
+                        <p>
+                            This project aims to explore a unified Hybrid Recommendation System that combines these methodologies into a cohesive engine. By utilizing a high-dimensional dataset of 89,740 unique tracks, this research examines ten core acoustic features—such as valence, energy, and danceability— to build a system that comprehensively understands the "DNA" of a song.
+                        </p>
+                        <a href="https://github.com/abammidi/Datascience_projects/tree/main/HybridMusicRecommendationSystem">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/USC.jpg" style="width: 300%; max-width: 300px; height: auto;"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>US Child Care Affordability Crisis Analysis  </h3>
+                        <p>
+                            This project transform the monthly cost (MC) figures into a more impactful metric—the 6-month mean cost—and compare this figure across states and age groups. The overall goal is to quantify the affordability crisis in a clear, actionable manner for policymakers.
+                        </p>
+                        <a href="https://github.com/abammidi/Datascience_projects/tree/main/US%20ChildCare%20Affordibilty%20Crisis%20Analysis">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/PA.jpg" style="width: 300%; max-width: 300px; height: auto;"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Labor Force Suitability - Predictive Analysis </h3>
+                        <p>
+                            This project utilizes the 2019 American Time Use Survey (ATUS) Respondent Data from the Bureau of Labor Statistics (BLS) and aim to identify underserved populations and help recruiters find viable candidates for labor opportunities by scoring "non-skill behaviors" derived from real-time survey responses using predictive analysis (Correlation and clustering approaches).
+                        </p>
+                        <a href="https://github.com/abammidi/Datascience_projects/tree/main/Labor%20Force%20Suitability%20-%20Predictive%20Analysis%20">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>	
+                <div class="project shadow-large">
+                    <div class="project-image">
+                       <img src="images/OS1.jpg" style="width: 100%; max-width: 300px; height: 260px;"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Obesity Risk Prediction System </h3>
+                        <p>
+                            The primary goal was to build a machine learning model that predicts an individual's obesity level based on their daily behavior by investigated the statistical relationships between habits (like water consumption and physical activity) and their direct impact on body mass index (BMI) and applied several algorithms to determine which could most accurately classify an individual into one of seven weight categories, ranging from "Insufficient Weight" to "Obesity III".
+                        </p>
+                        <a href="https://github.com/abammidi/Datascience_projects/tree/main/Obesity%20Risk%20Prediction%20System">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <div class="project shadow-large">
+                    <div class="project-image">
+                       <img src="images/DR.jpg" style="width: 100%; max-width: 300px; height: auto;"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Diet Recommendation System</h3>
+                        <p>
+                            This project aims to explore a recipe dataset and use that to build a recommendation application using machine learning techniques based on user personal preferences. The project allows users to discover food that aligns with their dietary needs, allergy restrictions, and food preferences.
+                        </p>
+                        <a href="https://github.com/abammidi/Datascience_projects/tree/main/Diet%20Recommendation%20System">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <div class="project shadow-large">
+                    <div class="project-image">
+                       <img src="images/tsa.jpg" style="width: 100%; max-width: 300px; height: 240px;"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>TSA Precheck and Operation System Optimization</h3>
+                        <p>
+                            This project aims to analyze the Airport operational data and identify the pain areas and provide summarized visuals to the TSA Executive leadership  that can help optimize the TSA Precheck enrollment and operational systems by reducing the complaints by 50% and further improving the traveler experience, and refocusing the agent time on core security missions.
+
+                        </p>
+                        <a href="https://github.com/abammidi/Datascience_projects/tree/main/TSA%20Precheck%20and%20Operation%20System%20Optimization">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <div class="project shadow-large">
+                    <div class="project-image">
+                  <img src="images/mlb.jpg" style="width: 100%; max-width: 300px; height: auto;"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>MLB Attendance Optimization  </h3>
+                        <p>
+                            This project is a data-driven exploration aimed at helping sports management and marketing teams optimize stadium attendance using historical data from an entire MLB season. The goal is to move beyond simple ticket sales tracking and uncover the specific lifestyle and logistical factors—such as weather, day of the week, and promotional giveaways—that drive fan behavior.
+                        </p>
+                        <a href="https://github.com/abammidi/Datascience_projects/tree/main/MLB%20Attendance%20Optimization">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/retail.jpg" style="width: 100%; max-width: 300px; height: 260px;"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Personalized E-Commerce Engagement System</h3>
+                        <p>
+			 The primary objective is to determine how a retailer can programmatically identify high-value wholesalers, nurture casual shoppers, and re-engage dormant customers at risk of churn. By solving this, the business can optimize its marketing spend and maximize the lifetime value (LTV) of every customer in its database.
+			</p>
+                        <a href="https://github.com/abammidi/Datascience_projects/tree/main/Personalized%20E-Commerce%20Engagement%20System%20">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/fr.jpg" style="width: 100%; max-width: 300px; height: 260px;"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3> Fraud Detection Optimization </h3>
+                        <p>
+			The primary objective of this project is to develop a robust, high-performance anomaly detection system capable of identifying fraudulent credit card transactions within a massive stream of legitimate data.                                          </p>
+                        <a href="https://github.com/abammidi/Datascience_projects/tree/main/Fraud%20Detection%20Optimization">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+				
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+    <div id="experience" class="background-alt" >
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="September 2023 – Present">
+                <h3>Capital One Financial Services</h3>
+                <h4>Data Engineer</h4>
+                <p>
+•       Lead Data analysis, Mapping, Transformation and Load of Fraud and Risk payment data <br/>
+                              attributes to Enterprise Data Warehouse for reporting and analytics.<br/>
+			
+•       Collaborate with business partners on requirements and translate them to functional design <br/>           and technical design
+                    requirement and worked with developers, data modelers and <br/>           DBA through end to end implementation.<br/>
+
+•       Provide subject matter expertise in the analysis, design, and development within the payment <br/>           data services and cross-functional team.<br/>
+
+•       Provides support and resolution of production incidents and business BAU Requests.<br/>
+
+•       Develop and Maintain Ab Initio Graph and Teradata SQL Rules.<br/>
+
+		</p>
+            </div>
+
+
+	
+            <div data-date="March 2016 – September 2023">
+                <h3>Walgreens Co.</h3>
+                <h4>Software Engineer </h4>
+                <p>
+•       Worked onshore and to capture the industry requirement for DevOps initiatives, understand <br/>           and analyze Business, Functional, and technical requirements related to integration of DevOps <br/>           tools with existing Java batch and web-based, ETL, and AS400 applications used in Walgreens <br/>          Merchandise, Supply Chain area.<br/>
+					
+•       Developed, debugged, and tested a UNIX script for the migration of existing source code <br/>           (software) from CVS to a GIT repository for existing Merchandising software/projects.<br/>
+					
+•       Worked as a developer for enabling the tool chain and automation using various tools <br/>           throughout Walgreens. Ex- UNIX scripting, Ant Build scripting, integration of JIRA, BAMBOO,<br/>           and STASH, etc.<br/>
+					
+•       Scheduling training sessions and mentoring Supply Chain applications and IT teams on the <br/>           DevOps initiative and its implementation.<br/>
+					
+•       Analyze, design, and implement strategies for automating continuous deliveries. Configuration <br/>           of the tooling chain to enable Continuous Integration, Continuous Delivery, and Continuous <br/>           Testing.<br/>
+					
+•       Management of Walgreens WIKI pages for each Merchandise sub-area, and enabling <br/>           collaboration and communication across the application team.<br/>
+					
+•       Creation of JIRA workflow across the applications team to enable process flow for Continuous <br/>           Development, Continuous Testing, Database Change Management, and Change Request <br/>           Management.<br/>
+					
+•       Creation and configuration of deployment plans in BAMBOO Continuous Integration Server.<br/>
+					
+•       Analyzing the impact of change to be made in existing software performance improvement in <br/>           term of software delivery and with cost and business benefit analysis.<br/>
+
+                </p>
+            </div>
+
+         
+            <div data-date="March 2013 - March 2016">
+                <h3>Tata Consultancy Services, Delhi - India </h3>
+                <h4>IT Analyst </h4>
+                <p>
+•       Gather Business, System, and Environmental requirements from Walgreens Business analyst. <br/>
+					
+•       Fully involved in system design, development, unit test execution, integration, performance <br/>           testing, and deployment. <br/>
+					
+•       Worked as part of the configuration Management team of the project to ensure on-time <br/>           deployment throughout software development and project releases. <br/>
+					
+•       Design a web and batch application for planogram validation for future publishing events at <br/>           stores using J2EE, JavaScript, and Oracle SQL queries in the Bounce Framework. <br/>
+					
+•       Documenting and demonstrating solutions by developing documentation, flowcharts, layouts,<br/>           diagrams, charts, code comments, and clear code. <br/>
+					
+•       Developed business-critical reporting (Facing Summary) tool in Spring MVC batch and <br/>           optimized the processing. <br/>
+					
+•       Performance tuning of complex SQL queries to reduce the response time and achieve optimal <br/>           performance for batch processes using these queries.<br/>
+					
+•       Develop a universe in the SAP Business Object universe for ad-hoc reporting.<br/>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>Bellevue University</h3>
+            <span class="education-date"> Expected Completion: March 2026</span>
+        <h4>1000 Galvin Rd S, Bellevue, NE 68005</h4>		
+   	    <h4>Masters of Science in Data Science</h4>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>Gautam Buddh Technical University</h3>
+            <span class="education-date">Graduated: December 2012</span>
+            <h4>Lucknow India</h4>		
+            <h4>Bachelor of Computer Science and Engineering</h4>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>AbInitio</li>
+            <li>Python</li>
+            <li>Microsoft Azure (Data Engineer, Architect and DevOps Engineer)</li>
+            <li>Databricks</li>
+            <li>Unix Shell Script</li>
+            <li>SQL</li>
+            <li>Tableau</li>
+            <li>Microsoft Synapse</li>
+            <li>Oracle</li>
+            <li>Snowflake</li>
+	     <li>Machine Learning Algorithms: Clustering, Regression, Classification Models</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2 class="heading">Get in Touch and Email me: girivivek01@gmail.com</h2>
+        <div id="contact-form">
+
+			<h2">Or Submit your details below:</h2>
+			
+            <form method="POST" action="https://formspree.io/f/xkgodblp">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; <span id="current-year">2026</span> Vivek Giri
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/abammidi" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/vivekgiri01/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+						</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
 </body>
+
 </html>
