@@ -37,5 +37,4 @@ Hiring managers and recruiters for data engineering, analytics engineering, and 
 - Finish the In progress and TBD projects, or label them clearly.
 - Decide whether to show an email address publicly.
 - Confirm the Experience and Education text matches my records.
-- Add project images back, using the existing image files.
 - Add a short resume line: "Portfolio: https://abammidi.github.io/anilbammidi.github.io/".
