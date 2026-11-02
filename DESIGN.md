@@ -18,7 +18,7 @@ Hiring managers and recruiters for data engineering, analytics engineering, and 
 4. **Experience:** Three roles, most recent first.
 5. **Education:** Bellevue master's (in progress) and undergraduate degree.
 6. **Skills:** Grouped by cloud, data platforms, languages, and methods.
-7. **Contact:** GitHub and LinkedIn. Add an email address once I decide to make it public.
+7. **Contact:** Email, GitHub, and LinkedIn.
 
 ## Visual direction
 
@@ -35,6 +35,5 @@ Hiring managers and recruiters for data engineering, analytics engineering, and 
 ## Open items
 
 - Finish the In progress and TBD projects, or label them clearly.
-- Decide whether to show an email address publicly.
 - Confirm the Experience and Education text matches my records.
 - Add a short resume line: "Portfolio: https://abammidi.github.io/anilbammidi.github.io/".
