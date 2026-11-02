@@ -14,7 +14,7 @@ Hiring managers and recruiters for data engineering, analytics engineering, and 
 
 1. **Hero:** Name, one-line positioning, and links to GitHub and LinkedIn.
 2. **About:** Three sentences on background and focus.
-3. **Projects (fully populated):** Nine projects with status badges and a link to each folder. One placeholder for later.
+3. **Projects (fully populated):** Eight projects with status badges and a link to each folder. Two placeholders for later.
 4. **Experience:** Three roles, most recent first.
 5. **Education:** Bellevue master's (in progress) and undergraduate degree.
 6. **Skills:** Grouped by cloud, data platforms, languages, and methods.
